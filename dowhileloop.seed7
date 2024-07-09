@@ -1,0 +1,10 @@
+const var loop is func begin
+  var i is 1;
+
+  repeat
+    writeln(i);
+    i := i + 1;
+  until i > 5;
+end func;
+
+loop;

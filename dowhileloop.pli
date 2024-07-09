@@ -1,0 +1,7 @@
+/* dowhileloop.pli */
+DCL I FIXED DECIMAL(5) INIT(1);
+
+DO REPEAT;
+    PUT LIST(I);
+    I = I + 1;
+END REPEAT UNTIL(I > 5);

@@ -1,0 +1,11 @@
+# dowhileloop.spl
+PROGRAM
+    VAR
+        i : INTEGER;
+    BEGIN
+        i := 1;
+        REPEAT
+            WRITELN(i);
+            i := i + 1;
+        UNTIL i > 5;
+    END.

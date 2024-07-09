@@ -1,0 +1,9 @@
+(* dowhileloop.sml *)
+val _ =
+    let
+        fun loop i =
+            if i > 5 then ()
+            else (print (Int.toString i ^ "\n"); loop (i+1))
+    in
+        loop 1
+    end

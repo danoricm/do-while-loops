@@ -1,0 +1,6 @@
+* dowhileloop.fox
+i = 1
+DO
+    ? i
+    i = i + 1
+LOOP WHILE i <= 5

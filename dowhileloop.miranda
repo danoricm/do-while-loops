@@ -1,0 +1,4 @@
+|| dowhileloop.miranda
+loop i = [i | i <= 5] ++ loop (i + 1)
+
+main = loop 1
